@@ -120,7 +120,7 @@ jobs:
       - name: Clone Manifests Repository
         uses: actions/checkout@v4
         with:
-          repository: MaZeNNaSSer22/Cd-Using-ArgoCD-Manifests-files
+          repository: MaZeNNaSSer22/Cd-Using-ArgoCD-Manifests-files-
           token: ${{ secrets.GITOPS_PAT }}
           path: manifests-repo
 
